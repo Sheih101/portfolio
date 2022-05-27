@@ -1,0 +1,13 @@
+.nav {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 151px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFFEF7;
+}

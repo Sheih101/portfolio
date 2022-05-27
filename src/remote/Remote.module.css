@@ -1,0 +1,42 @@
+.remoteBlock {
+    height: 40vh;
+    background-color: #fbfbd2;
+}
+
+.container {
+    border: 1px solid;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: #eeeef5;
+    margin-top: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 0 15px;
+    margin: 0 15px 0 0;
+    height: 38px;
+    color: #000;
+    background-color: darkgray;
+    cursor: pointer;
+    border: 1px solid darkgray;
+}
+
+
+
