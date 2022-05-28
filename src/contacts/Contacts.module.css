@@ -1,28 +1,31 @@
 .contactsBlock {
     height: 100vh;
     background-color: #ffc1b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     border: 1px solid;
-    height: 100%;
+    height: 91%;
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .title {
     background-color: #eeeef5;
+    margin: 0;
 }
 
 .form {
+    width: 280px;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    border: 1px solid;
 }
 
 .input {
@@ -35,19 +38,12 @@
 .textarea {
     border: none;
     background-color: whitesmoke;
-
 }
 
 .button {
-    display: inline-block;
-    padding: 0 15px;
-    margin: 0 15px 0 0;
-    height: 38px;
-    color: #000;
-    background-color: darkgray;
-    cursor: pointer;
-    border-top: 0;
-    border-bottom: 1px solid;
-    border-right: 0;
-    border-left: 0;
+    text-decoration: none;
+    user-select: none;
+    background: #121212;
+    padding: 10px 25px;
+    color: #ffa600;
 }

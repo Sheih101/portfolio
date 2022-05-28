@@ -2,9 +2,9 @@
     width: 500px;
     display: flex;
     justify-content: space-between;
-    margin-right: 151px;
     border: 1px solid;
     padding: 5px;
+    margin: 35px;
 }
 
 .link {
