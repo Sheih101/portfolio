@@ -1,5 +1,5 @@
 .skillsBlock {
-    min-height: 70vh;
+    min-height: 80vh;
     background-color: #d4ffc0;
 }
 
@@ -10,7 +10,6 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
     flex-direction: column;
 }
 

@@ -18,6 +18,7 @@
 }
 
 .projects {
+    border: 2px solid;
     width: 80%;
     display: flex;
     justify-content: space-between;
