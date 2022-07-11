@@ -9,9 +9,9 @@ export const Contacts = () => {
                 <form className={s.form}>
                     <input type="text" className={s.input}/>
                     <input type="text" className={s.input}/>
-                    <textarea rows="5"/>
+                    <textarea/>
                 </form>
-                <a href="#" className={s.button}><b>Отправить</b></a>
+                <button type='submit' className={s.button}>Отправить</button>
             </div>
         </div>
     );
